@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Messenger",
+  "description": "A beautiful desktop client for Facebook Messenger. Chat without being distracted by your feed or notifications.",
+  "version": "1.0.0",
+  "icons": {
+    "16": "assets/icon_16.png",
+    "128": "assets/icon_128.png",
+    "256": "assets/icon_256.png",
+    "512": "assets/icon_512.png",
+    "1024": "assets/icon_1024.png"
+  },
+  "permissions": [
+    "webview"
+  ],
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  }
+}
